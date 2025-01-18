@@ -3,7 +3,7 @@ from enum import Enum
 
 class ViewMode(Enum):
     """Enum for a Project view mode."""
-
+    UNKNOWN = ""
     LIST = "list"
     KANBAN = "kanban"
     TIMELINE = "timeline"
